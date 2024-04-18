@@ -1,0 +1,38 @@
+.products-page-products {
+    .products-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+        gap: 20px;
+    }
+}
+
+.filters {
+    margin-bottom: 50px;
+
+    .filters-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+        .filter {
+            background-color: orange;
+            color: #fff;
+            line-height: 45px;
+            padding: 2px 25px;
+            display: inline-block;
+            font-weight: 700;
+            border-radius: 12px;
+            transition: all .2s ease;
+
+            &:hover {
+                background-color:cadetblue;
+            }
+
+            &.active {
+                background-color:cadetblue;
+            }
+        }
+    }
+}

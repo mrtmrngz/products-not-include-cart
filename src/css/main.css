@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer; }
+
+.container {
+  max-width: 85%;
+  height: 100%;
+  margin: 0 auto; }
+
+.img-fluid {
+  width: 100%; }
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 576px; } }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px; } }
+
+@media screen and (min-width: 996px) {
+  .container {
+    max-width: 996px; } }
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 85%; } }
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dee0ea;
+  background-color: #fff;
+  text-align: center;
+  transition: all .4s ease; }
+  .product-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+  .product-item .card-image {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .product-item .card-image img {
+      max-width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center; }
+  .product-item .card-body {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 100%; }
+    .product-item .card-body .review-and-stock {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .product-item .card-body .review-and-stock .stock {
+        font-size: 16px; }
+        .product-item .card-body .review-and-stock .stock.yes-stock {
+          color: green; }
+        .product-item .card-body .review-and-stock .stock.no-stock {
+          color: red; }
+      .product-item .card-body .review-and-stock .reviews {
+        display: flex;
+        gap: 3px;
+        font-size: 14px;
+        color: gold; }
+    .product-item .card-body .product-brand {
+      font-size: 16px;
+      color: gray;
+      letter-spacing: 1px; }
+    .product-item .card-body .product-model {
+      font-size: 18px; }
+    .product-item .card-body .prices {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 25px;
+      font-weight: 700; }
+      .product-item .card-body .prices .old-price {
+        font-size: 14px;
+        text-decoration: line-through;
+        color: gray; }
+      .product-item .card-body .prices .new-price {
+        font-size: 18px;
+        color: crimson; }
+    .product-item .card-body .product-button {
+      width: 100%;
+      background-color: orange;
+      line-height: 45px;
+      color: #fff;
+      border-radius: 25px; }
+      .product-item .card-body .product-button:hover {
+        opacity: 0.7; }
+
+.route {
+  display: inline-block;
+  margin: 50px 0;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: red;
+  padding: 20px; }
+
+.products-slider {
+  margin: 50px 0;
+  position: relative; }
+  .products-slider .slider-navigations button {
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    background-color: white;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .2s ease;
+    z-index: 2; }
+    .products-slider .slider-navigations button:hover {
+      background-color: #000;
+      color: #fff;
+      box-shadow: 0 0 10px #000; }
+    .products-slider .slider-navigations button.next {
+      right: 30px; }
+    .products-slider .slider-navigations button.prev {
+      left: 30px; }
+
+.products-page-products .products-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 20px; }
+
+.filters {
+  margin-bottom: 50px; }
+  .filters .filters-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px; }
+    .filters .filters-wrapper .filter {
+      background-color: orange;
+      color: #fff;
+      line-height: 45px;
+      padding: 2px 25px;
+      display: inline-block;
+      font-weight: 700;
+      border-radius: 12px;
+      transition: all .2s ease; }
+      .filters .filters-wrapper .filter:hover {
+        background-color: cadetblue; }
+      .filters .filters-wrapper .filter.active {
+        background-color: cadetblue; }

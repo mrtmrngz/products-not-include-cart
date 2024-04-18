@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "category": "computer",
+        "name": "Computer 1",
+        "price": {
+            "newPrice": 2500,
+            "oldPrice": 3200
+        },
+        "discount": 32,
+        "img": "./src/img/pc.jpg",
+        "stock": false
+    },
+    {
+        "id": 2,
+        "category": "phone",
+        "name": "Phone 1",
+        "price": {
+            "newPrice": 4500,
+            "oldPrice": 5200
+        },
+        "discount": 60,
+        "img": "./src/img/p2.jpg",
+        "stock": false
+    },
+    {
+        "id": 3,
+        "category": "tv",
+        "name": "Tv 1",
+        "price": {
+            "newPrice": 2200,
+            "oldPrice": 3200
+        },
+        "discount": 15,
+        "img": "./src/img/tv.jpg",
+        "stock": true
+    },
+    {
+        "id": 4,
+        "category": "tv",
+        "name": "Tv 2",
+        "price": {
+            "newPrice": 4200,
+            "oldPrice": 5200
+        },
+        "discount": 42,
+        "img": "./src/img/tv2.jpg",
+        "stock": true
+    },
+    {
+        "id": 5,
+        "category": "phone",
+        "name": "Phone 2",
+        "price": {
+            "newPrice": 4500,
+            "oldPrice": 6200
+        },
+        "discount": 25,
+        "img": "./src/img/p3.jpg",
+        "stock": true
+    },
+    {
+        "id": 6,
+        "category": "phone",
+        "name": "Phone 3",
+        "price": {
+            "newPrice": 8200,
+            "oldPrice": 10200
+        },
+        "discount": 15,
+        "img": "./src/img/p4.jpg",
+        "stock": false
+    },
+    {
+        "id": 7,
+        "category": "computer",
+        "name": "Computer 2",
+        "price": {
+            "newPrice": 7200,
+            "oldPrice": 8200
+        },
+        "discount": 12,
+        "img": "./src/img/computer2.jpg",
+        "stock": true
+    },
+    {
+        "id": 8,
+        "category": "phone",
+        "name": "Phone 4",
+        "price": {
+            "newPrice": 4200,
+            "oldPrice": 2200
+        },
+        "discount": 40,
+        "img": "./src/img/phone.jpg",
+        "stock": true
+    }
+]

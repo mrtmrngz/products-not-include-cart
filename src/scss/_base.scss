@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 85%;
+    height: 100%;
+    // padding: 0 1.4rem;
+    margin: 0 auto;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+
+@media screen and (min-width:576px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width:996px) {
+    .container {
+        max-width: 996px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 85%;
+    }
+}
